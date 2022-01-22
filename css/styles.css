@@ -190,15 +190,15 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 /* ==========================================================================
 Navigation
 ========================================================================== */
-nav { background-color: #242830; margin-top: -1px; }
+/* nav { background-color: #242830; margin-top: -1px;  }
 nav ul { list-style: none; padding: 0; }
 nav ul li { color: rgba(255, 255, 255, 0.6); display: block; border-bottom: 1px dotted rgba(255, 255, 255, 0.2); transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; padding-left: 0; position: relative; }
 nav ul li:last-child { border: none; }
 nav ul li a { color: rgba(255, 255, 255, 0.6); display: block; padding: 20px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; padding-left: 0; position: relative; }
 nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 255, 255, 1); }
 #nav-toggle { position: absolute; right: 15px; top: 0; }
-#nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after { cursor: pointer; border-radius: 1px; -moz-border-radius: 1px; -webkit-border-radius: 1px; -o-border-radius: 1px; height: 5px; width: 35px; background: #353535; position: absolute; display: block; content: ''; }
+#nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; color: aqua; }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after { color: aqua; cursor: pointer; border-radius: 1px; -moz-border-radius: 1px; -webkit-border-radius: 1px; -o-border-radius: 1px; height: 5px; width: 35px; background: #353535; position: absolute; display: block; content: ''; }
 #nav-toggle span:before { top: -10px; }
 #nav-toggle span:after { bottom: -10px; }
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
@@ -208,14 +208,14 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 #nav-toggle.active span:after { transform: translateY(-10px) rotate(-45deg); -webkit-transform: translateY(-10px) rotate(-45deg); -ms-transform: translateY(-10px) rotate(-45deg); top: 10px; }
 .navicon { position: relative; height: 26px; }
 .indicator { position: absolute; right: 0 !important; }
-.pull { display: none; }
+.pull { display: none; } */
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
-.hero h1 { font-size: 20px; letter-spacing: 4px; margin: 10px; margin-left: 0; }
+.hero { background: url('../img/dj2.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
+.hero h1 { font-size: 50px; letter-spacing: 4px; margin:20px; color: aqua; margin-left: 0; }
 .hero h1 span { color: #a1a9b0; display: inline-block; }
-.hero p { letter-spacing: 1px; }
+.hero p { letter-spacing: 1px; text-decoration: underline; }
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
 /* ==========================================================================
